@@ -21,5 +21,6 @@ from pets.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pages.urls')),
-    path('', include('pets.urls'))
+    path('', include('pets.urls')),
+    path('', include('artwork.urls')),
 ]
